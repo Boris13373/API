@@ -59,4 +59,4 @@ if response.ok:
         serials.append(vacancy_data)
     df = pd.DataFrame(serials)
 
-pprint(df)
+print(df)
